@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[TOWebViewController beingPresentedModally]:TOWebViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TOWebViewController viewDidLoad]:TOWebViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.beingPresentedModally">
+            </PersistentString>
+            <PersistentString
+               value = "self.onTopOfNavigationControllerStack">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[CTWebViewController setupHandler]_block_invoke:CTWebViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "request.URL.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "bidString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

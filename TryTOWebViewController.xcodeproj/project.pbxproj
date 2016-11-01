@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0D948F1DC8778500135616 /* NSString+ParseURLParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0D948A1DC8778500135616 /* NSString+ParseURLParams.m */; };
+		2D0D94901DC8778500135616 /* NSString+RegularPatternCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0D948C1DC8778500135616 /* NSString+RegularPatternCompare.m */; };
+		2D0D94961DC8784F00135616 /* CTWebUrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0D94931DC8784F00135616 /* CTWebUrlManager.m */; };
+		2D0D94971DC8784F00135616 /* CTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0D94951DC8784F00135616 /* CTWebViewController.m */; };
 		2D6342A51DC351130081B3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6342A41DC351130081B3AF /* main.m */; };
 		2D6342A81DC351130081B3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6342A71DC351130081B3AF /* AppDelegate.m */; };
 		2D6342AB1DC351130081B3AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6342AA1DC351130081B3AF /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		2D6342B31DC351130081B3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6342B11DC351130081B3AF /* LaunchScreen.storyboard */; };
 		2D6342BE1DC351130081B3AF /* TryTOWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6342BD1DC351130081B3AF /* TryTOWebViewControllerTests.m */; };
 		2D6342C91DC351130081B3AF /* TryTOWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6342C81DC351130081B3AF /* TryTOWebViewControllerUITests.m */; };
+		6750EE5D4781B20F8341AEAA /* libPods-TryTOWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2058461281BE1DC5DFB1827A /* libPods-TryTOWebViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2058461281BE1DC5DFB1827A /* libPods-TryTOWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryTOWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0D94891DC8778500135616 /* NSString+ParseURLParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ParseURLParams.h"; sourceTree = "<group>"; };
+		2D0D948A1DC8778500135616 /* NSString+ParseURLParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ParseURLParams.m"; sourceTree = "<group>"; };
+		2D0D948B1DC8778500135616 /* NSString+RegularPatternCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegularPatternCompare.h"; sourceTree = "<group>"; };
+		2D0D948C1DC8778500135616 /* NSString+RegularPatternCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegularPatternCompare.m"; sourceTree = "<group>"; };
+		2D0D94921DC8784F00135616 /* CTWebUrlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTWebUrlManager.h; sourceTree = "<group>"; };
+		2D0D94931DC8784F00135616 /* CTWebUrlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTWebUrlManager.m; sourceTree = "<group>"; };
+		2D0D94941DC8784F00135616 /* CTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTWebViewController.h; sourceTree = "<group>"; };
+		2D0D94951DC8784F00135616 /* CTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTWebViewController.m; sourceTree = "<group>"; };
 		2D6342A01DC351130081B3AF /* TryTOWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTOWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6342A41DC351130081B3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D6342A61DC351130081B3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,8 @@
 		2D6342C41DC351130081B3AF /* TryTOWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTOWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6342C81DC351130081B3AF /* TryTOWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTOWebViewControllerUITests.m; sourceTree = "<group>"; };
 		2D6342CA1DC351130081B3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51105AA7AD7AA715CD68C6B7 /* Pods-TryTOWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryTOWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryTOWebViewController/Pods-TryTOWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		E26EAC4F0C4F4DCF31EC411A /* Pods-TryTOWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryTOWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryTOWebViewController/Pods-TryTOWebViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6750EE5D4781B20F8341AEAA /* libPods-TryTOWebViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0D94841DC8778500135616 /* 17Life */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D94911DC8784F00135616 /* CTWebViewController */,
+				2D0D94891DC8778500135616 /* NSString+ParseURLParams.h */,
+				2D0D948A1DC8778500135616 /* NSString+ParseURLParams.m */,
+				2D0D948B1DC8778500135616 /* NSString+RegularPatternCompare.h */,
+				2D0D948C1DC8778500135616 /* NSString+RegularPatternCompare.m */,
+			);
+			path = 17Life;
+			sourceTree = "<group>";
+		};
+		2D0D94911DC8784F00135616 /* CTWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D94921DC8784F00135616 /* CTWebUrlManager.h */,
+				2D0D94931DC8784F00135616 /* CTWebUrlManager.m */,
+				2D0D94941DC8784F00135616 /* CTWebViewController.h */,
+				2D0D94951DC8784F00135616 /* CTWebViewController.m */,
+			);
+			path = CTWebViewController;
+			sourceTree = "<group>";
+		};
 		2D6342971DC351130081B3AF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				2D6342BC1DC351130081B3AF /* TryTOWebViewControllerTests */,
 				2D6342C71DC351130081B3AF /* TryTOWebViewControllerUITests */,
 				2D6342A11DC351130081B3AF /* Products */,
+				3CB16BFCFB44A792EC9051EC /* Pods */,
+				BB86673701C92ADDC5261AC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 		2D6342A21DC351130081B3AF /* TryTOWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2D0D94841DC8778500135616 /* 17Life */,
 				2D6342A61DC351130081B3AF /* AppDelegate.h */,
 				2D6342A71DC351130081B3AF /* AppDelegate.m */,
 				2D6342A91DC351130081B3AF /* ViewController.h */,
@@ -140,6 +183,23 @@
 			path = TryTOWebViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		3CB16BFCFB44A792EC9051EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51105AA7AD7AA715CD68C6B7 /* Pods-TryTOWebViewController.debug.xcconfig */,
+				E26EAC4F0C4F4DCF31EC411A /* Pods-TryTOWebViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB86673701C92ADDC5261AC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2058461281BE1DC5DFB1827A /* libPods-TryTOWebViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D6342CD1DC351130081B3AF /* Build configuration list for PBXNativeTarget "TryTOWebViewController" */;
 			buildPhases = (
+				07B9C700D088D093F6EE766D /* [CP] Check Pods Manifest.lock */,
 				2D63429C1DC351130081B3AF /* Sources */,
 				2D63429D1DC351130081B3AF /* Frameworks */,
 				2D63429E1DC351130081B3AF /* Resources */,
+				8259131B874A11923065967D /* [CP] Embed Pods Frameworks */,
+				64906CEAE3E544BC501B5282 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +270,7 @@
 				TargetAttributes = {
 					2D63429F1DC351130081B3AF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6Z764NMGW4;
 						ProvisioningStyle = Automatic;
 					};
 					2D6342B81DC351130081B3AF = {
@@ -268,14 +332,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07B9C700D088D093F6EE766D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64906CEAE3E544BC501B5282 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryTOWebViewController/Pods-TryTOWebViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8259131B874A11923065967D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryTOWebViewController/Pods-TryTOWebViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D63429C1DC351130081B3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0D94971DC8784F00135616 /* CTWebViewController.m in Sources */,
 				2D6342AB1DC351130081B3AF /* ViewController.m in Sources */,
 				2D6342A81DC351130081B3AF /* AppDelegate.m in Sources */,
+				2D0D94901DC8778500135616 /* NSString+RegularPatternCompare.m in Sources */,
 				2D6342A51DC351130081B3AF /* main.m in Sources */,
+				2D0D948F1DC8778500135616 /* NSString+ParseURLParams.m in Sources */,
+				2D0D94961DC8784F00135616 /* CTWebUrlManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +536,12 @@
 		};
 		2D6342CE1DC351130081B3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51105AA7AD7AA715CD68C6B7 /* Pods-TryTOWebViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Z764NMGW4;
 				INFOPLIST_FILE = TryTOWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.TryTOWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +550,12 @@
 		};
 		2D6342CF1DC351130081B3AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26EAC4F0C4F4DCF31EC411A /* Pods-TryTOWebViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Z764NMGW4;
 				INFOPLIST_FILE = TryTOWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.TryTOWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +627,7 @@
 				2D6342CF1DC351130081B3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D6342D01DC351130081B3AF /* Build configuration list for PBXNativeTarget "TryTOWebViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +636,7 @@
 				2D6342D21DC351130081B3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D6342D31DC351130081B3AF /* Build configuration list for PBXNativeTarget "TryTOWebViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +645,7 @@
 				2D6342D51DC351130081B3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

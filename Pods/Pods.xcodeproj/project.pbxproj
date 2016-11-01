@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05EE51A78878A520CA9BB9EF2495C9DF /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC1CD527E017A30305AC053DE09DAA3 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0ADBA0AD1B362966332E7A22A2C6C345 /* TOActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DB9CDD86C1A229B34EA26FDAD5B027 /* TOActivitySafari.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4D2E635EC394006916DC778F97BD03 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1C99DC97674AD8A6C53BF7245D35490F /* en.lproj */; };
+		0C26493F50909CA8DE6493AC69FFDD43 /* TOWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3513B3780D9EC1B6873B19E019118 /* TOWebViewController-dummy.m */; };
+		0D5B2CF34B53A76D8B8A5DE4D0CC1022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		16BF991A13D00401023950D0A018613C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */; };
+		1EC4E8335C8F2D299F330285AE680E67 /* TOWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9AE317C656D3979BEF1894D1DC0A4C /* TOWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F87241AB69E0C6A4E57A2B9BD6285E1 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECD2186F9705FB8249477E0519FE0031 /* ru.lproj */; };
+		2005655584D9E221E10A01EAA0561592 /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD2CA840583A1B6E447ADCF4D56655 /* TOWebViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2337F045EAB9C762E8673873315BDCDE /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F5F4ADF0F384833EF92A84715FD221 /* TOActivityChrome.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F99D72D7BA2C08F6891BBF6E385FA38 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 94248BB087F1348B04941CD38A76662A /* it.lproj */; };
+		35D8EB89A4AEE407DA3CA4951CD81A32 /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F10E6B692B17B9135621E8F64ED80 /* UIImage+TOWebViewControllerIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AE64C9B799BDE00C31905BE753179CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		4F2545BDAE0E12F14232046200758A05 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E55EA5E95568AC7D57871D1B98F62A /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5446E88305C11023CE53E17D8A0929DD /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B0F09388489A9D9B012653C9265605B2 /* zh-Hant.lproj */; };
+		56D663C3CA7C6B96814C581645820C8F /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 110883CB0F9F0D0354EBCF45A4CAE24C /* pl.lproj */; };
+		63A8934CEB0BE38A72EC49A3FDB3EE12 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4F131C535598B912EEFCA225C7DE0F /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81458AC98955D01F6B9E6B3853267C43 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 71173F75CB54856A17C16A70A9DD4BFE /* fr.lproj */; };
+		833126B6A9B7AFA230E22F77760029B6 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 75050248B813ED96F14CD9DBE60E84CC /* ja.lproj */; };
+		9904BAEEAC87A9D0FDA01DB4A645E1BA /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 347942CD13570D1CC42AA867B82C9F9F /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64D99B016E02B44DEED8E59382D698A /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B190689DFAB8032F0931E50B3CADE2 /* TOActivitySafari.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B69057895A778A1DA6C716BC6F2AFE07 /* Pods-TryTOWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86A35095E8257F001EE3BDF0E694D0 /* Pods-TryTOWebViewController-dummy.m */; };
+		C1827EAAA762A72C614DAA8D970E68FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */; };
+		CE6BDF87EAB99E15F875F9A7B6132CA2 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 925C07A4EF31B12D3542CDE4C6ED45E0 /* ko.lproj */; };
+		DCDD1440AA62978E912FDF485C08A991 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB12DF1F745DAC88DDC1BD6952563D82 /* de.lproj */; };
+		DFCD7BEDF404AB04E85FAFE537DF331C /* TOActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 9603F450A85CA5377B26FB80CDB04FAD /* TOActivityChrome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55EECF61520778FC410C9583AE937C8 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A1A6DD7CA3DD2F6B0A23EBECC6229 /* zh-Hans.lproj */; };
+		F252364EC2380073D69971BA3970522B /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6755F23B587121C16A8916B27324636C /* uk.lproj */; };
+		FD6481DEBBAD58857323E9C6F7A46EED /* UIImage+TOWebViewControllerIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAB4B64E8725424FC6681CB1422057D /* UIImage+TOWebViewControllerIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3742FB40159286426686410CDD7B14 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F3869A364A3A1B67EEFC9A9B256F6FB3 /* es.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90843DC5BD03A9C522BB08C3644CF3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B223A4066CB312CA23718BAEF6FFFA5D;
+			remoteInfo = "TOWebViewController-TOWebViewControllerLocalizable";
+		};
+		DF24B36C3C710FB5D1BF9467C766C4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540B72B8B7CD06138C3C10307FF08FC9;
+			remoteInfo = TOWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		092F10E6B692B17B9135621E8F64ED80 /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TOWebViewControllerIcons.m"; path = "TOWebViewController/UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		110883CB0F9F0D0354EBCF45A4CAE24C /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = TOWebViewController/pl.lproj; sourceTree = "<group>"; };
+		13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		17C3513B3780D9EC1B6873B19E019118 /* TOWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOWebViewController-dummy.m"; sourceTree = "<group>"; };
+		1C99DC97674AD8A6C53BF7245D35490F /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TOWebViewController/en.lproj; sourceTree = "<group>"; };
+		1F4F131C535598B912EEFCA225C7DE0F /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		28B190689DFAB8032F0931E50B3CADE2 /* TOActivitySafari.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivitySafari.m; path = TOWebViewController/TOActivitySafari.m; sourceTree = "<group>"; };
+		2E86A35095E8257F001EE3BDF0E694D0 /* Pods-TryTOWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TryTOWebViewController-dummy.m"; sourceTree = "<group>"; };
+		347942CD13570D1CC42AA867B82C9F9F /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		3D3A1A6DD7CA3DD2F6B0A23EBECC6229 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "TOWebViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		3EB3032DFC3D0BEB1D7ADC4E68965DA0 /* Pods-TryTOWebViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TryTOWebViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42F5F4ADF0F384833EF92A84715FD221 /* TOActivityChrome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityChrome.m; path = TOWebViewController/TOActivityChrome.m; sourceTree = "<group>"; };
+		4E9AE317C656D3979BEF1894D1DC0A4C /* TOWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOWebViewController.h; path = TOWebViewController/TOWebViewController.h; sourceTree = "<group>"; };
+		5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOWebViewController.xcconfig; sourceTree = "<group>"; };
+		61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		6755F23B587121C16A8916B27324636C /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = uk.lproj; path = TOWebViewController/uk.lproj; sourceTree = "<group>"; };
+		71173F75CB54856A17C16A70A9DD4BFE /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = TOWebViewController/fr.lproj; sourceTree = "<group>"; };
+		75050248B813ED96F14CD9DBE60E84CC /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = TOWebViewController/ja.lproj; sourceTree = "<group>"; };
+		75E55EA5E95568AC7D57871D1B98F62A /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		77B1C98C112E822A90BF0E38B7D84C4A /* Pods-TryTOWebViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TryTOWebViewController-resources.sh"; sourceTree = "<group>"; };
+		7A3B1B52F1F8830C73E732F8BC9BDCCB /* TOWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		83695CB33A4B91EEFF32FF74D182CDE5 /* Pods-TryTOWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TryTOWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAD2CA840583A1B6E447ADCF4D56655 /* TOWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOWebViewController.m; path = TOWebViewController/TOWebViewController.m; sourceTree = "<group>"; };
+		925C07A4EF31B12D3542CDE4C6ED45E0 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = TOWebViewController/ko.lproj; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94248BB087F1348B04941CD38A76662A /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = TOWebViewController/it.lproj; sourceTree = "<group>"; };
+		95DB9CDD86C1A229B34EA26FDAD5B027 /* TOActivitySafari.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivitySafari.h; path = TOWebViewController/TOActivitySafari.h; sourceTree = "<group>"; };
+		9603F450A85CA5377B26FB80CDB04FAD /* TOActivityChrome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityChrome.h; path = TOWebViewController/TOActivityChrome.h; sourceTree = "<group>"; };
+		A4A33136B81C3F3E7024D5E53F365DCF /* Pods-TryTOWebViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TryTOWebViewController-frameworks.sh"; sourceTree = "<group>"; };
+		A4C1C1C3C0B0BFAEB99FB3C9147F7024 /* Pods-TryTOWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TryTOWebViewController.release.xcconfig"; sourceTree = "<group>"; };
+		B0F09388489A9D9B012653C9265605B2 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "TOWebViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		B3BC7735F4DC41B59E76F7C8DDA9E91E /* libPods-TryTOWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryTOWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EBEBB10E7CF1ADC3C91A23C406242C /* ResourceBundle-TOWebViewControllerLocalizable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOWebViewControllerLocalizable-Info.plist"; sourceTree = "<group>"; };
+		BD7BFACA1A383C451C2F90DE20980DC9 /* Pods-TryTOWebViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TryTOWebViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDAB4B64E8725424FC6681CB1422057D /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TOWebViewControllerIcons.h"; path = "TOWebViewController/UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		CECF71C63565B145FAF6AFDBA6A2BFE8 /* libTOWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTOWebViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB12DF1F745DAC88DDC1BD6952563D82 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = TOWebViewController/de.lproj; sourceTree = "<group>"; };
+		ECD2186F9705FB8249477E0519FE0031 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = TOWebViewController/ru.lproj; sourceTree = "<group>"; };
+		EDC1CD527E017A30305AC053DE09DAA3 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		F3869A364A3A1B67EEFC9A9B256F6FB3 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TOWebViewController/es.lproj; sourceTree = "<group>"; };
+		F8BEB025E27B9A7F095A27A2A25EBA21 /* TOWebViewControllerLocalizable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOWebViewControllerLocalizable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0054FE26E3707655FDAA0BB4ED0333FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1827EAAA762A72C614DAA8D970E68FD /* CoreGraphics.framework in Frameworks */,
+				4AE64C9B799BDE00C31905BE753179CA /* Foundation.framework in Frameworks */,
+				16BF991A13D00401023950D0A018613C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70D9D46867041B36120855D74030A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA004DC8B97271F15BE0C90B3B985D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5B2CF34B53A76D8B8A5DE4D0CC1022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B773CB89711902D049A5E4034DCA596 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */,
+				13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */,
+				0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B773CB89711902D049A5E4034DCA596 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF43D30D7BD0890B44F10EC37DBBA04 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				347942CD13570D1CC42AA867B82C9F9F /* NJKWebViewProgress.h */,
+				EDC1CD527E017A30305AC053DE09DAA3 /* NJKWebViewProgress.m */,
+				1F4F131C535598B912EEFCA225C7DE0F /* NJKWebViewProgressView.h */,
+				75E55EA5E95568AC7D57871D1B98F62A /* NJKWebViewProgressView.m */,
+				9603F450A85CA5377B26FB80CDB04FAD /* TOActivityChrome.h */,
+				42F5F4ADF0F384833EF92A84715FD221 /* TOActivityChrome.m */,
+				95DB9CDD86C1A229B34EA26FDAD5B027 /* TOActivitySafari.h */,
+				28B190689DFAB8032F0931E50B3CADE2 /* TOActivitySafari.m */,
+				4E9AE317C656D3979BEF1894D1DC0A4C /* TOWebViewController.h */,
+				8CAD2CA840583A1B6E447ADCF4D56655 /* TOWebViewController.m */,
+				CDAB4B64E8725424FC6681CB1422057D /* UIImage+TOWebViewControllerIcons.h */,
+				092F10E6B692B17B9135621E8F64ED80 /* UIImage+TOWebViewControllerIcons.m */,
+				8EFBBD816C062CCCEAB35023156707FA /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3CE30A29D4D789B52F551A473F5456C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EBEBB10E7CF1ADC3C91A23C406242C /* ResourceBundle-TOWebViewControllerLocalizable-Info.plist */,
+				5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */,
+				17C3513B3780D9EC1B6873B19E019118 /* TOWebViewController-dummy.m */,
+				7A3B1B52F1F8830C73E732F8BC9BDCCB /* TOWebViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOWebViewController";
+			sourceTree = "<group>";
+		};
+		5CDF6D3F588B0C543673155AB8426345 /* Pods-TryTOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3EB3032DFC3D0BEB1D7ADC4E68965DA0 /* Pods-TryTOWebViewController-acknowledgements.markdown */,
+				BD7BFACA1A383C451C2F90DE20980DC9 /* Pods-TryTOWebViewController-acknowledgements.plist */,
+				2E86A35095E8257F001EE3BDF0E694D0 /* Pods-TryTOWebViewController-dummy.m */,
+				A4A33136B81C3F3E7024D5E53F365DCF /* Pods-TryTOWebViewController-frameworks.sh */,
+				77B1C98C112E822A90BF0E38B7D84C4A /* Pods-TryTOWebViewController-resources.sh */,
+				83695CB33A4B91EEFF32FF74D182CDE5 /* Pods-TryTOWebViewController.debug.xcconfig */,
+				A4C1C1C3C0B0BFAEB99FB3C9147F7024 /* Pods-TryTOWebViewController.release.xcconfig */,
+			);
+			name = "Pods-TryTOWebViewController";
+			path = "Target Support Files/Pods-TryTOWebViewController";
+			sourceTree = "<group>";
+		};
+		6BC340C418F883EBFAF4A9E0BE2F86D1 /* TOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CF43D30D7BD0890B44F10EC37DBBA04 /* Core */,
+				3CE30A29D4D789B52F551A473F5456C2 /* Support Files */,
+			);
+			path = TOWebViewController;
+			sourceTree = "<group>";
+		};
+		6C5A4ECE78731FCBC673562E9B22CC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC7735F4DC41B59E76F7C8DDA9E91E /* libPods-TryTOWebViewController.a */,
+				CECF71C63565B145FAF6AFDBA6A2BFE8 /* libTOWebViewController.a */,
+				F8BEB025E27B9A7F095A27A2A25EBA21 /* TOWebViewControllerLocalizable.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73D0EEBFA728F72EA01E5316850C623F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC340C418F883EBFAF4A9E0BE2F86D1 /* TOWebViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				73D0EEBFA728F72EA01E5316850C623F /* Pods */,
+				6C5A4ECE78731FCBC673562E9B22CC89 /* Products */,
+				B343C33BCD4A523C27EF2FF0FE3E5345 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFBBD816C062CCCEAB35023156707FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB12DF1F745DAC88DDC1BD6952563D82 /* de.lproj */,
+				1C99DC97674AD8A6C53BF7245D35490F /* en.lproj */,
+				F3869A364A3A1B67EEFC9A9B256F6FB3 /* es.lproj */,
+				71173F75CB54856A17C16A70A9DD4BFE /* fr.lproj */,
+				94248BB087F1348B04941CD38A76662A /* it.lproj */,
+				75050248B813ED96F14CD9DBE60E84CC /* ja.lproj */,
+				925C07A4EF31B12D3542CDE4C6ED45E0 /* ko.lproj */,
+				110883CB0F9F0D0354EBCF45A4CAE24C /* pl.lproj */,
+				ECD2186F9705FB8249477E0519FE0031 /* ru.lproj */,
+				6755F23B587121C16A8916B27324636C /* uk.lproj */,
+				3D3A1A6DD7CA3DD2F6B0A23EBECC6229 /* zh-Hans.lproj */,
+				B0F09388489A9D9B012653C9265605B2 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B343C33BCD4A523C27EF2FF0FE3E5345 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF6D3F588B0C543673155AB8426345 /* Pods-TryTOWebViewController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A66739C0945AA2E8711BF883B90A89AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9904BAEEAC87A9D0FDA01DB4A645E1BA /* NJKWebViewProgress.h in Headers */,
+				63A8934CEB0BE38A72EC49A3FDB3EE12 /* NJKWebViewProgressView.h in Headers */,
+				DFCD7BEDF404AB04E85FAFE537DF331C /* TOActivityChrome.h in Headers */,
+				0ADBA0AD1B362966332E7A22A2C6C345 /* TOActivitySafari.h in Headers */,
+				1EC4E8335C8F2D299F330285AE680E67 /* TOWebViewController.h in Headers */,
+				FD6481DEBBAD58857323E9C6F7A46EED /* UIImage+TOWebViewControllerIcons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		540B72B8B7CD06138C3C10307FF08FC9 /* TOWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB9E28DFF648755AFD7D8F953560DDA /* Build configuration list for PBXNativeTarget "TOWebViewController" */;
+			buildPhases = (
+				A7B4217A4E9B36ABE72C801ABDC85FF1 /* Sources */,
+				0054FE26E3707655FDAA0BB4ED0333FF /* Frameworks */,
+				A66739C0945AA2E8711BF883B90A89AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADD3051A818CC73BEB88600AC618859 /* PBXTargetDependency */,
+			);
+			name = TOWebViewController;
+			productName = TOWebViewController;
+			productReference = CECF71C63565B145FAF6AFDBA6A2BFE8 /* libTOWebViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B223A4066CB312CA23718BAEF6FFFA5D /* TOWebViewController-TOWebViewControllerLocalizable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615853EDA3F600EA2621D1E85A2EB029 /* Build configuration list for PBXNativeTarget "TOWebViewController-TOWebViewControllerLocalizable" */;
+			buildPhases = (
+				F1F3F68A0C1FCB79BF95DEAC63534A49 /* Sources */,
+				B70D9D46867041B36120855D74030A1E /* Frameworks */,
+				4CB0710B2A53B5C2DC185C49DE14B48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOWebViewController-TOWebViewControllerLocalizable";
+			productName = "TOWebViewController-TOWebViewControllerLocalizable";
+			productReference = F8BEB025E27B9A7F095A27A2A25EBA21 /* TOWebViewControllerLocalizable.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BC51D2FBB73FEF591733946786473905 /* Pods-TryTOWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE59EA9A17B338B7F0A0D963DD1A5CE /* Build configuration list for PBXNativeTarget "Pods-TryTOWebViewController" */;
+			buildPhases = (
+				326034DF811041513D3C4B52AA14C051 /* Sources */,
+				CDA004DC8B97271F15BE0C90B3B985D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024126C072813C37B8B2F9AD0F843AA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TryTOWebViewController";
+			productName = "Pods-TryTOWebViewController";
+			productReference = B3BC7735F4DC41B59E76F7C8DDA9E91E /* libPods-TryTOWebViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C5A4ECE78731FCBC673562E9B22CC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC51D2FBB73FEF591733946786473905 /* Pods-TryTOWebViewController */,
+				540B72B8B7CD06138C3C10307FF08FC9 /* TOWebViewController */,
+				B223A4066CB312CA23718BAEF6FFFA5D /* TOWebViewController-TOWebViewControllerLocalizable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB0710B2A53B5C2DC185C49DE14B48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDD1440AA62978E912FDF485C08A991 /* de.lproj in Resources */,
+				0B4D2E635EC394006916DC778F97BD03 /* en.lproj in Resources */,
+				FF3742FB40159286426686410CDD7B14 /* es.lproj in Resources */,
+				81458AC98955D01F6B9E6B3853267C43 /* fr.lproj in Resources */,
+				2F99D72D7BA2C08F6891BBF6E385FA38 /* it.lproj in Resources */,
+				833126B6A9B7AFA230E22F77760029B6 /* ja.lproj in Resources */,
+				CE6BDF87EAB99E15F875F9A7B6132CA2 /* ko.lproj in Resources */,
+				56D663C3CA7C6B96814C581645820C8F /* pl.lproj in Resources */,
+				1F87241AB69E0C6A4E57A2B9BD6285E1 /* ru.lproj in Resources */,
+				F252364EC2380073D69971BA3970522B /* uk.lproj in Resources */,
+				E55EECF61520778FC410C9583AE937C8 /* zh-Hans.lproj in Resources */,
+				5446E88305C11023CE53E17D8A0929DD /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326034DF811041513D3C4B52AA14C051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69057895A778A1DA6C716BC6F2AFE07 /* Pods-TryTOWebViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B4217A4E9B36ABE72C801ABDC85FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE51A78878A520CA9BB9EF2495C9DF /* NJKWebViewProgress.m in Sources */,
+				4F2545BDAE0E12F14232046200758A05 /* NJKWebViewProgressView.m in Sources */,
+				2337F045EAB9C762E8673873315BDCDE /* TOActivityChrome.m in Sources */,
+				A64D99B016E02B44DEED8E59382D698A /* TOActivitySafari.m in Sources */,
+				0C26493F50909CA8DE6493AC69FFDD43 /* TOWebViewController-dummy.m in Sources */,
+				2005655584D9E221E10A01EAA0561592 /* TOWebViewController.m in Sources */,
+				35D8EB89A4AEE407DA3CA4951CD81A32 /* UIImage+TOWebViewControllerIcons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F3F68A0C1FCB79BF95DEAC63534A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024126C072813C37B8B2F9AD0F843AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOWebViewController;
+			target = 540B72B8B7CD06138C3C10307FF08FC9 /* TOWebViewController */;
+			targetProxy = DF24B36C3C710FB5D1BF9467C766C4AF /* PBXContainerItemProxy */;
+		};
+		3ADD3051A818CC73BEB88600AC618859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOWebViewController-TOWebViewControllerLocalizable";
+			target = B223A4066CB312CA23718BAEF6FFFA5D /* TOWebViewController-TOWebViewControllerLocalizable */;
+			targetProxy = 90843DC5BD03A9C522BB08C3644CF3C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B3D16A8789E54A40D017CC82843CCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOWebViewController/TOWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44D0274D0D3BD91D73F8BE960C5FE8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOWebViewController/TOWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A14430E956438882698CBAA851A13CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/ResourceBundle-TOWebViewControllerLocalizable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TOWebViewControllerLocalizable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B513C804EEB8459B8FCE5E37A538340B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C1C1C3C0B0BFAEB99FB3C9147F7024 /* Pods-TryTOWebViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B558FCBD25B3B8739F7F3BF8510005EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5404723F71D63371DA7FD1ECF199DF45 /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/ResourceBundle-TOWebViewControllerLocalizable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TOWebViewControllerLocalizable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D260D7F1F5D5646632FC9F7F123622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83695CB33A4B91EEFF32FF74D182CDE5 /* Pods-TryTOWebViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615853EDA3F600EA2621D1E85A2EB029 /* Build configuration list for PBXNativeTarget "TOWebViewController-TOWebViewControllerLocalizable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B558FCBD25B3B8739F7F3BF8510005EF /* Debug */,
+				A14430E956438882698CBAA851A13CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB9E28DFF648755AFD7D8F953560DDA /* Build configuration list for PBXNativeTarget "TOWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D0274D0D3BD91D73F8BE960C5FE8F3 /* Debug */,
+				1B3D16A8789E54A40D017CC82843CCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE59EA9A17B338B7F0A0D963DD1A5CE /* Build configuration list for PBXNativeTarget "Pods-TryTOWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D260D7F1F5D5646632FC9F7F123622EF /* Debug */,
+				B513C804EEB8459B8FCE5E37A538340B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
